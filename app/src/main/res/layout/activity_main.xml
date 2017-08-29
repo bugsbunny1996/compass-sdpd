@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.bugsbunny1996.compass_sdpd.MainActivity"
-    android:background="@drawable/download">
+    android:background="@drawable/download"
+    >
     <ImageView
         android:id="@+id/image"
         android:layout_width="match_parent"
