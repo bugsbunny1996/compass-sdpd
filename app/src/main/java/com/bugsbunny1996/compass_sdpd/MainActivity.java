@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         Float degrees = event.values[0];
         String st = degrees.toString();
         ImageView img = (ImageView) findViewById(R.id.image);
-        img.setRotation(degrees);
+        img.setRotation(-1*degrees);
 
         //TextView t = (TextView) findViewById(R.id.text);
         //t.setText(st);
